@@ -1,0 +1,94 @@
+.signin-form{
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+    padding: 14px 0px 14px 0px ; 
+    background-color: white; 
+    border-radius: 5px; 
+}
+.left-side img{
+    width: 400px;
+    height: 430px;
+    object-fit: fill;
+    border-radius: 5px;
+}
+.right-side{
+    width: 100%;
+    padding: .5rem 2.5rem 0 0;
+}
+
+.header h2{
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.field-part label{
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.field-part input, .field-part select{
+    width: 100%;
+    height: 30px;
+    margin: 0 0 18px 0;
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid rgb(211, 207, 207);
+    padding: 10px 0 2px 0;
+    font-size: 16px;
+    transition: border .4s;
+}
+.field-part input:focus{
+    border-bottom: 2px solid rgb(80, 80, 225); 
+}
+.btns{
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    transition: background-color .4s, color .4s;
+    outline: none;
+}
+.btn:first-child{
+    color: white;
+    background-color: rgb(80, 80, 225);
+}
+.btn:last-child{
+    border: 2px solid rgb(80, 80, 225);
+}
+.btn:first-child:hover{
+    cursor: pointer;
+    background-color: rgb(51, 51, 241);
+}
+.btn:last-child:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(51, 51, 241);
+}
+.social-media-part{
+    padding-top: 1rem;
+    text-align: center;
+}
+.social-media-logos i{  
+    margin: 5px 5px; 
+    font-size: 17px;
+    border: 1px solid rgb(80, 80, 225);
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 11px;
+    color: rgb(80, 80, 225);
+    transition: background-color .4s, color .4s;
+}
+.social-media-logos i:hover{
+    cursor: pointer;
+    background-color: rgb(80, 80, 225);
+    color: white;
+}

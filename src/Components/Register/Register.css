@@ -1,0 +1,30 @@
+.signup-form{
+    display: flex;
+    max-width: 950px;
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+    padding: 14px 0px 14px 0px ; 
+    background-color: white; 
+    border-radius: 5px;  
+}
+.register-pic{
+    width: 400px;
+    height: 590px !important;
+    object-fit: fill;
+    border-radius: 5px;
+}
+.field-box{
+    display: flex;
+    gap: 45px;    
+}
+.field-part select{
+    margin-top: 13px;
+    width: 200px;
+    height: 30px;
+    padding: 2px 0 0px 0;
+}
+.field-part select:focus{
+    border-bottom: 2px solid rgb(80, 80, 225); 
+}
+
